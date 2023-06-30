@@ -11,6 +11,12 @@ int main(){
     int a, b;
     cin >> a >> b ;
     cout << a*b << endl;
-    cout << x + y ;
+    cout << x + y << endl ;
+
+    string str1;
+    string str2;
+    cout << "Enter name : ";
+    cin >> str1 >> str2;
+    cout << str1 + " " +str2;
     return 0;
 }
