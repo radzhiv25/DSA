@@ -12,6 +12,6 @@ int funcnum(int n){
 int main(){
     int n;
     cin >> n;
-    funcnum(n);
+    cout << funcnum(n);
     // return 0;
 }
